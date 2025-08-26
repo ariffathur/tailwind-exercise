@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-[#ECF8FF];
+
+  @variant dark {
+    @apply bg-[#141D26];
+  }
+}
+
+.card {
+  @apply bg-white px-[31px] py-[35px] rounded-md w-[600px];
+
+
+  @variant dark {
+    @apply bg-[#243447] px-[31px] py-[35px]  rounded-md w-[600px];
+  }
+}
